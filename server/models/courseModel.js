@@ -1,7 +1,7 @@
 const courses = [
   {
     id: 1,
-    name: "Java Full Stack Development",
+    name: "Java Full Stack Development -API testing",
     category: "Full Stack",
     description:
       "Learn Java, Spring Boot, React, REST APIs and MySQL through practical projects.",
@@ -9,6 +9,8 @@ const courses = [
     mode: "Online / Offline",
     fee: 35000,
     level: "Beginner to Advanced",
+     image:
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ const courses = [
     mode: "Online / Offline",
     fee: 35000,
     level: "Beginner to Advanced",
+    image:
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800"
   },
   {
     id: 3,
@@ -31,6 +35,8 @@ const courses = [
     mode: "Online / Offline",
     fee: 35000,
     level: "Beginner to Advanced",
+    image:
+      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800"
   },
   {
     id: 4,
@@ -42,6 +48,8 @@ const courses = [
     mode: "Online / Offline",
     fee: 22000,
     level: "Intermediate",
+    image:
+      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
   },
   {
     id: 5,
@@ -53,6 +61,8 @@ const courses = [
     mode: "Online / Offline",
     fee: 24000,
     level: "Intermediate",
+    image:
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
   },
   {
     id: 6,
@@ -64,6 +74,10 @@ const courses = [
     mode: "Online / Offline",
     fee: 45000,
     level: "Intermediate",
+    image:
+      "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800"
+  
+    
 
   }
 ];
