@@ -3,6 +3,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 const courseRoutes = require("./routes/courseRoutes");
+const trainerRoutes = require("./routes/trainerRoutes");
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(express.json());
 
 // API routes
 app.use("/api/courses", courseRoutes);
+app.use("/api/trainers", trainerRoutes);
 
 // Test route
 app.get("/", (req, res) => {
