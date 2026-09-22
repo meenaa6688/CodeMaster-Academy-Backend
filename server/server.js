@@ -5,6 +5,8 @@ require("dotenv").config();
 const courseRoutes = require("./routes/courseRoutes");
 const trainerRoutes = require("./routes/trainerRoutes");
 const batchRoutes = require("./routes/batchRoutes");
+const enquiryRoutes = require("./routes/enquiryRoutes");
+
 
 const app = express();
 
@@ -18,6 +20,7 @@ app.use(express.json());
 app.use("/api/courses", courseRoutes);
 app.use("/api/trainers", trainerRoutes);
 app.use("/api/batches", batchRoutes);
+app.use("/api/enquiries", enquiryRoutes);
 
 // Test route
 app.get("/", (req, res) => {
